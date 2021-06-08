@@ -5,9 +5,12 @@
 */
 body {
   margin: 0;
+  background: #1B1B1E;
+  ;
+  
 }
 
-:root {
+/* :root {
   --color-red: #f42;
   --bg-color-red: #f42;
 }
@@ -21,7 +24,7 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+*/
 ul {
   list-style: none;
 }
@@ -30,13 +33,62 @@ a {
   text-decoration: none;
   color: white;
 }
-
+/*
 a:hover {
   color: #333;
+} */
+.border-7 {
+content: "";
+width: 70px;
+height: 1px;
+margin:5px;
+
+background-color: #FFFFFF;
 }
 
+.d-flex {
+  display: flex;
+}
 /*
     ==============================================
                 ****** GLOBAL ******
     ==============================================
 */
+header {
+  position: absolute;
+width: 664px;
+height: 549px;
+left: 447px;
+top: 210px;
+}
+.elipse {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+  background: #DB4747;
+  left: 447px;
+  top: 210px;
+}
+
+.page #01 {
+  position: absolute;
+width: 82px;
+height: 150px;
+left: 447px;
+top: 210px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 200;
+font-size: 100px;
+line-height: 150px;
+
+/* identical to box height */
+text-align: right;
+
+color: #FFFFFF;
+
+opacity: 0.2;
+}
+
