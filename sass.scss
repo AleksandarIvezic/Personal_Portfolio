@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+    margin: 0;
+    background: #1B1B1E;
+    
+  }
+  
+  /* :root {
+    --color-red: #f42;
+    --bg-color-red: #f42;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  */
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  /*
+  a:hover {
+    color: #333;
+  } */
+  .hr-7 {
+  content: "";
+  width: 70px;
+  height: 1px;
+  margin-top:10px;
+  
+  background-color: #FFFFFF;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  /*
+      ==============================================
+                  ****** GLOBAL ******
+      ==============================================
+  */
+  
+ 
+  
+header {
+    position: relative;
+    width: 664px;
+    height: 549px;
+    // left: 447px;
+    // top: 210px;
+    // margin-top: 210px;
+    margin: 210px auto 0 auto;
+    .page {
+        .num {
+          position: absolute;
+          width: 82px;
+          height: 150px;
+          left: 0;
+          top: 0;
+          
+          font-family: 'Poppins', sans-serif;
+          font-style: normal;
+          font-weight: 200;
+          font-size: 100px;
+          line-height: 150px;
+          
+          /* identical to box height */
+          text-align: right;
+          
+          color: #FFFFFF;
+          
+          opacity: 0.2;
+        }
+    }
+    .header-text {
+        position:absolute;
+        left: 100px;
+        top: 100px;
+        color: #ffffff;
+        
+        h1 {
+            font-family: Playfair Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 110px;
+            line-height: 100%; 
+            margin: 0;
+        }
+        p {
+            position: relative;
+            font-size: 16px;
+            line-height: 24px;
+            margin: 0;
+            .far {
+                position: absolute;
+                bottom: 0;
+                right: 30px;
+            }
+        }
+    }
+    .elipse {
+        position: absolute;
+        width: 94px;
+        height: 94px;
+        border-radius: 50%;
+        background: #DB4747;
+        right: 0;
+        top: 70px;
+    }
+    ul {
+        justify-content: flex-start;
+        padding: 0;
+
+        li {
+            margin-right: 40px;
+        }
+
+        a {
+            color: #DB4747;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        i {
+            color: #ffffff;
+    
+        }
+    }
+   
+    
+}
+  
+  
+  
