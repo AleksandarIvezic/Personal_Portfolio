@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/myapp-blueviolet)
 
-# Project Name
+# Personal_portfolio
 
 > One paragraph statement about the project.
 
