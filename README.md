@@ -46,7 +46,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Aleksandar Ivezic**
 
 - GitHub: [@ShinobiWarior](https://github.com/shinobiwarior)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Twitter: [@AIvezic](https://twitter.com/AIvezic)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 
