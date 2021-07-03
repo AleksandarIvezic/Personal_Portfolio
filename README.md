@@ -47,7 +47,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@ShinobiWarior](https://github.com/shinobiwarior)
 - Twitter: [@AIvezic](https://twitter.com/AIvezic)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- LinkedIn: [Aleksandar Ivezic](https://linkedin.com/in/aleksandar-ivezic)
 
 
 
