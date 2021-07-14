@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:ital,wght@0,100;1,400&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:ital,wght@0,100;0,800;1,400&family=Roboto:wght@400;700&display=swap');
 
 body {
   margin: 0;
@@ -30,6 +30,20 @@ a {
   color: white;
 }
 
+.num {
+  width: 58px;
+  height: 75px;
+
+  font-family: Poppins;
+  font-size: 50px;
+  line-height: 75px;
+
+  /* identical to box height */
+
+  color: #FFFFFF;
+
+  opacity: 0.2;
+}
 /*
   a:hover {
     color: #333;
@@ -151,27 +165,8 @@ nav {
 }
 
 header {
-  .num {
-    position: absolute;
-    width: 41px;
-    height: 75px;
-    left: 16px;
-    top: 33px;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 50px;
-    line-height: 75px;
-
-    /* identical to box height */
-    text-align: right;
-
-    color: #FFFFFF;
-
-    opacity: 0.2;
-  }
-
+  position: relative;
+  
   .elipse {
     position: absolute;
     width: 50px;
@@ -185,31 +180,16 @@ header {
 
   .header-text {
     .hello {
-      position: absolute;
-      width: 289px;
-      height: 18px;
-      left: 16px;
-      top: 95px;
-
       font-family: Poppins;
       font-style: normal;
       font-weight: bold;
       font-size: 12px;
       line-height: 18px;
 
-      /* identical to box height */
-
       color: #FFFFFF;
     }
 
     h1 {
-      position: absolute;
-      width: 288px;
-      height: 100px;
-      left: 16px;
-      top: 113px;
-
-
       font-family: Playfair Display;
       font-size: 50px;
       font-style: normal;
@@ -217,22 +197,11 @@ header {
       line-height: 50px;
       letter-spacing: 0em;
       text-align: left;
-
-      /* or 50px */
-
       color: #FFFFFF;
     }
 
     .text {
-      position: absolute;
-      width: 288px;
-      height: 90px;
-      left: 16px;
-      top: 243px;
-
       font-family: Poppins;
-      font-style: normal;
-      font-weight: normal;
       font-size: 12px;
       line-height: 18px;
 
@@ -240,96 +209,43 @@ header {
     }
 
     .see-works a {
-      position: absolute;
-      width: 113px;
-      height: 21px;
-      left: 16px;
-      top: 386px;
 
       font-family: Roboto;
-      font-style: normal;
-      font-weight: 500;
       font-size: 18px;
       line-height: 21px;
-
-      /* identical to box height */
-
       color: #DB4747;
     }
 
     .hr-7 {
-      position: absolute;
       width: 70px;
-      height: 0px;
-      left: 16px;
-      top: 427px;
-
+      margin-top: 20px;
       border: 1px solid #FFFFFF;
     }
 
     ul {
-      position: absolute;
+      margin-top: 20px;
       width: 289px;
       height: 24px;
-      left: 16px;
-      top: 447px;
-
     }
-
-    ;
   }
 }
 
 .portfolio {
-  padding:0;
-  .num {
-    position: absolute;
-    width: 58px;
-    height: 75px;
-    left: 16px;
-    top: 551px;
+  padding: 0;
+  position: relative;
 
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 50px;
-    line-height: 75px;
-
-    /* identical to box height */
-
-    color: #FFFFFF;
-
-    opacity: 0.2;
-  }
+ 
 
   .recent {
-    position: absolute;
-    width: 288px;
-    height: 18px;
-    left: 16px;
-    top: 613px;
-
     font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 18px;
-
-    /* identical to box height */
-
     color: #FFFFFF;
   }
 
   h2 {
-    position: absolute;
-    width: 288px;
-    height: 50px;
-    left: 16px;
-    top: 631px;
 
     font-family: Playfair Display;
-    font-style: normal;
-    font-weight: normal;
     font-size: 50px;
     line-height: 100%;
 
@@ -340,11 +256,8 @@ header {
 
   .project {
     position: relative;
-    width: 320px;
-    height: 186px;
-    left: 0px;
-    top: 701px;
-
+    min-width: 320px;
+    min-height: 186px;
     background: url(image.png), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url(image.png);
     border: 0.333333px solid rgba(255, 255, 255, 0.1);
 
@@ -359,13 +272,9 @@ header {
 
         a {
           font-family: Poppins;
-          font-style: normal;
           font-weight: 300;
           font-size: 10.3334px;
           line-height: 80%;
-
-          /* or 8px */
-
           color: #FFFFFF;
         }
       }
@@ -393,6 +302,105 @@ header {
 
         color: #FFFFFF;
       }
+    }
+  }
+}
+
+
+.about-me {
+  .some-words {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+  }
+
+  h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 100%;
+
+    /* identical to box height, or 50px */
+
+    color: #FFFFFF;
+  }
+
+  .text {
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+  }
+
+  .colaboration {
+    width: 288px;
+    height: 44px;
+    margin: 0 auto;
+    /* Red */
+    background: #DB4747;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+
+    a {
+      font-family: Poppins;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+
+      /* identical to box height */
+      text-align: center;
+
+      color: #FFFFFF;
+    }
+
+  }
+
+  .about-box {
+    width: 238px;
+    height: 238px;
+    margin: 0 auto;
+
+    background: #212123;
+    box-shadow: 0px 1.91837px 23.0204px rgba(0, 0, 0, 0.25);
+    border-radius: 3.83673px;
+
+    .icon {
+      width: 40px;
+      height: 40px;
+      background: #22B07D;
+      opacity: 0.2;
+      margin: 20px 20px 20px 30px;
+    }
+
+    h4 {
+      width: 92px;
+      height: 24px;
+      margin: 20px 20px 20px 30px;
+      font-family: Poppins;
+      font-weight: bold;
+      line-height: 24px;
+
+      /* identical to box height */
+
+      color: #FFFFFF;
+    }
+
+    li {
+      list-style: disc;
+      margin-left: 10px;
+
+      color: #7D7C84;
     }
   }
 }
