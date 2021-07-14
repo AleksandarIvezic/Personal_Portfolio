@@ -30,6 +30,13 @@ a {
   color: white;
 }
 
+h2 {
+  font-family: Playfair Display;
+  font-size: 50px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
 .num {
   width: 58px;
   height: 75px;
@@ -44,6 +51,16 @@ a {
 
   opacity: 0.2;
 }
+
+.text {
+
+  font-family: Poppins;
+  font-size: 12px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+}
+
 /*
   a:hover {
     color: #333;
@@ -166,7 +183,7 @@ nav {
 
 header {
   position: relative;
-  
+
   .elipse {
     position: absolute;
     width: 50px;
@@ -179,15 +196,7 @@ header {
   }
 
   .header-text {
-    .hello {
-      font-family: Poppins;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 12px;
-      line-height: 18px;
 
-      color: #FFFFFF;
-    }
 
     h1 {
       font-family: Playfair Display;
@@ -197,14 +206,6 @@ header {
       line-height: 50px;
       letter-spacing: 0em;
       text-align: left;
-      color: #FFFFFF;
-    }
-
-    .text {
-      font-family: Poppins;
-      font-size: 12px;
-      line-height: 18px;
-
       color: #FFFFFF;
     }
 
@@ -234,23 +235,12 @@ header {
   padding: 0;
   position: relative;
 
- 
+
 
   .recent {
     font-family: Poppins;
     font-size: 12px;
     line-height: 18px;
-    color: #FFFFFF;
-  }
-
-  h2 {
-
-    font-family: Playfair Display;
-    font-size: 50px;
-    line-height: 100%;
-
-    /* identical to box height, or 50px */
-
     color: #FFFFFF;
   }
 
@@ -320,28 +310,6 @@ header {
     color: #FFFFFF;
   }
 
-  h2 {
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 100%;
-
-    /* identical to box height, or 50px */
-
-    color: #FFFFFF;
-  }
-
-  .text {
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-
-    color: #FFFFFF;
-  }
 
   .colaboration {
     width: 288px;
@@ -403,4 +371,48 @@ header {
       color: #7D7C84;
     }
   }
+}
+
+.form-field {
+  font-family: Popins, sans-serif;
+  width: 288px;
+  height: 52px;
+  background: #101010;
+  border-radius: 4px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-left: 20px;
+  padding-bottom: 5px;
+
+  label {
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 5px;
+    color: #7D7C84;
+
+  }
+
+  input {
+    background-color: #101010;
+    color: white;
+    border: none;
+  }
+}
+.text-area {
+  padding-left: 20px;
+width: 288px;
+height: 112px;
+margin: 0 auto;
+background: #101010;
+border-radius: 4px;
+border:none;
+color: #fff;
+}
+.start {
+  width: 288px;
+height: 44px;
+background-color: #DB4747;
+border: none;
 }

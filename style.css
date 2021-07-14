@@ -28,6 +28,13 @@ a {
   color: white;
 }
 
+h2 {
+  font-family: Playfair Display;
+  font-size: 50px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
 .num {
   width: 58px;
   height: 75px;
@@ -37,6 +44,13 @@ a {
   /* identical to box height */
   color: #FFFFFF;
   opacity: 0.2;
+}
+
+.text {
+  font-family: Poppins;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
 }
 
 /*
@@ -70,14 +84,6 @@ header .elipse {
   background: #DB4747;
   mix-blend-mode: lighten;
 }
-header .header-text .hello {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 18px;
-  color: #FFFFFF;
-}
 header .header-text h1 {
   font-family: Playfair Display;
   font-size: 50px;
@@ -86,12 +92,6 @@ header .header-text h1 {
   line-height: 50px;
   letter-spacing: 0em;
   text-align: left;
-  color: #FFFFFF;
-}
-header .header-text .text {
-  font-family: Poppins;
-  font-size: 12px;
-  line-height: 18px;
   color: #FFFFFF;
 }
 header .header-text .see-works a {
@@ -119,13 +119,6 @@ header .header-text ul {
   font-family: Poppins;
   font-size: 12px;
   line-height: 18px;
-  color: #FFFFFF;
-}
-.portfolio h2 {
-  font-family: Playfair Display;
-  font-size: 50px;
-  line-height: 100%;
-  /* identical to box height, or 50px */
   color: #FFFFFF;
 }
 .portfolio .project {
@@ -180,23 +173,6 @@ header .header-text ul {
   /* identical to box height */
   color: #FFFFFF;
 }
-.about-me h2 {
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 50px;
-  line-height: 100%;
-  /* identical to box height, or 50px */
-  color: #FFFFFF;
-}
-.about-me .text {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 18px;
-  color: #FFFFFF;
-}
 .about-me .colaboration {
   width: 288px;
   height: 44px;
@@ -244,6 +220,49 @@ header .header-text ul {
   list-style: disc;
   margin-left: 10px;
   color: #7D7C84;
+}
+
+.form-field {
+  font-family: Popins, sans-serif;
+  width: 288px;
+  height: 52px;
+  background: #101010;
+  border-radius: 4px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+.form-field label {
+  font-size: 10px;
+  line-height: 15px;
+  margin-bottom: 5px;
+  color: #7D7C84;
+}
+.form-field input {
+  background-color: #101010;
+  color: white;
+  border: none;
+}
+
+.text-area {
+  padding-left: 20px;
+  width: 288px;
+  height: 112px;
+  margin: 0 auto;
+  background: #101010;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+}
+
+.start {
+  width: 288px;
+  height: 44px;
+  background-color: #DB4747;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
