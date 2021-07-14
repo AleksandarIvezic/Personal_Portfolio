@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@100&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:ital,wght@0,100;1,400&family=Roboto:wght@400;700&display=swap");
 body {
   margin: 0;
   background: #1B1B1E;
@@ -115,7 +115,7 @@ header .header-text .text {
   line-height: 18px;
   color: #FFFFFF;
 }
-header .header-text .see-works {
+header .header-text .see-works a {
   position: absolute;
   width: 113px;
   height: 21px;
@@ -143,6 +143,99 @@ header .header-text ul {
   height: 24px;
   left: 16px;
   top: 447px;
+}
+
+.portfolio {
+  padding: 0;
+}
+.portfolio .num {
+  position: absolute;
+  width: 58px;
+  height: 75px;
+  left: 16px;
+  top: 551px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 50px;
+  line-height: 75px;
+  /* identical to box height */
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+.portfolio .recent {
+  position: absolute;
+  width: 288px;
+  height: 18px;
+  left: 16px;
+  top: 613px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+.portfolio h2 {
+  position: absolute;
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 631px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 100%;
+  /* identical to box height, or 50px */
+  color: #FFFFFF;
+}
+.portfolio .project {
+  position: relative;
+  width: 320px;
+  height: 186px;
+  left: 0px;
+  top: 701px;
+  background: url(image.png), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url(image.png);
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+.portfolio .project ul {
+  margin: 0;
+  padding: 0;
+}
+.portfolio .project ul li {
+  width: 87px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.portfolio .project ul li a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  /* or 8px */
+  color: #FFFFFF;
+}
+.portfolio .project .button {
+  position: absolute;
+  width: 178px;
+  height: 44px;
+  bottom: 10px;
+  left: 20px;
+  /* Red */
+  background: #DB4747;
+}
+.portfolio .project .button a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
