@@ -40,88 +40,19 @@ a:hover {
   background-color: #FFFFFF;
 }
 
-.d-flex {
-  display: flex;
-}
-
 /*
     ==============================================
                 ****** GLOBAL ******
     ==============================================
 */
-header {
-  position: relative;
-  width: 664px;
-  height: 549px;
-  margin: 210px auto 0 auto;
+nav .nav-button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 2rem;
 }
-header .page .num {
-  position: absolute;
-  width: 82px;
-  height: 150px;
-  left: 0;
-  top: 0;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 100px;
-  line-height: 150px;
-  /* identical to box height */
-  text-align: right;
-  color: #FFFFFF;
-  opacity: 0.2;
-}
-header .header-text {
-  position: absolute;
-  left: 100px;
-  top: 100px;
-  color: #ffffff;
-}
-header .header-text h1 {
-  font-family: Playfair Display;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 110px;
-  line-height: 100%;
-  margin: 0;
-}
-header .header-text p {
-  position: relative;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0;
-}
-header .header-text p .far {
-  position: absolute;
-  bottom: 0;
-  right: 30px;
-}
-header .elipse {
-  position: absolute;
-  width: 94px;
-  height: 94px;
-  border-radius: 50%;
-  background: #DB4747;
-  right: 0;
-  top: 70px;
-}
-header ul {
-  justify-content: flex-start;
-  padding: 0;
-}
-header ul li {
-  margin-right: 40px;
-}
-header ul a {
-  color: #DB4747;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-}
-header ul i {
-  color: #ffffff;
+nav .nav-button .num {
+  color: #49494B;
 }
 
 /*# sourceMappingURL=style.css.map */
