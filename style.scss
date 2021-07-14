@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@100&family=Roboto:wght@400;700&display=swap');
 
 body {
-    margin: 0;
-    background: #1B1B1E;
-    
-  }
-  
-  /* :root {
+  margin: 0;
+  background: #1B1B1E;
+
+}
+
+/* :root {
     --color-red: #f42;
     --bg-color-red: #f42;
   }
@@ -21,36 +21,30 @@ body {
     box-sizing: border-box;
   }
   */
-  ul {
-    list-style: none;
-  }
-  
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  /*
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*
   a:hover {
     color: #333;
   } */
-  .hr-7 {
-  content: "";
-  width: 70px;
-  height: 1px;
-  margin-top:10px;
-  
-  background-color: #FFFFFF;
-  }
-  
- 
-  /*
+
+
+
+/*
       ==============================================
                   ****** GLOBAL ******
       ==============================================
   */
-  
- 
-  
+
+
+
 // header {
 //     position: relative;
 //     width: 664px;
@@ -66,18 +60,18 @@ body {
 //           height: 150px;
 //           left: 0;
 //           top: 0;
-          
+
 //           font-family: 'Poppins', sans-serif;
 //           font-style: normal;
 //           font-weight: 200;
 //           font-size: 100px;
 //           line-height: 150px;
-          
+
 //           /* identical to box height */
 //           text-align: right;
-          
+
 //           color: #FFFFFF;
-          
+
 //           opacity: 0.2;
 //         }
 //     }
@@ -86,7 +80,7 @@ body {
 //         left: 100px;
 //         top: 100px;
 //         color: #ffffff;
-        
+
 //         h1 {
 //             font-family: Playfair Display;
 //             font-style: normal;
@@ -134,14 +128,14 @@ body {
 //         }
 //         i {
 //             color: #ffffff;
-    
+
 //         }
 //     }
-   
-    
+
+
 // }
-  
-  
+
+
 nav {
   .nav-button {
     background-color: transparent;
@@ -153,5 +147,135 @@ nav {
       color: #49494B;
 
     }
+  }
+}
+
+header {
+  .num {
+    position: absolute;
+    width: 41px;
+    height: 75px;
+    left: 16px;
+    top: 33px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 75px;
+
+    /* identical to box height */
+    text-align: right;
+
+    color: #FFFFFF;
+
+    opacity: 0.2;
+  }
+
+  .elipse {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 255px;
+    top: 76px;
+
+    background: #DB4747;
+    mix-blend-mode: lighten;
+  }
+
+  .header-text {
+    .hello {
+      position: absolute;
+      width: 289px;
+      height: 18px;
+      left: 16px;
+      top: 95px;
+
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 18px;
+
+      /* identical to box height */
+
+      color: #FFFFFF;
+    }
+
+    h1 {
+      position: absolute;
+      width: 288px;
+      height: 100px;
+      left: 16px;
+      top: 113px;
+
+
+      font-family: Playfair Display;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      /* or 50px */
+
+      color: #FFFFFF;
+    }
+
+    .text {
+      position: absolute;
+      width: 288px;
+      height: 90px;
+      left: 16px;
+      top: 243px;
+
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+
+      color: #FFFFFF;
+    }
+
+    .see-works {
+      position: absolute;
+      width: 113px;
+      height: 21px;
+      left: 16px;
+      top: 386px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+
+      /* identical to box height */
+
+      color: #DB4747;
+    }
+
+    .hr-7 {
+      position: absolute;
+      width: 70px;
+      height: 0px;
+      left: 16px;
+      top: 427px;
+
+      border: 1px solid #FFFFFF;
+    }
+
+    ul {
+      position: absolute;
+      width: 289px;
+      height: 24px;
+      left: 16px;
+      top: 447px;
+
+    }
+
+    ;
   }
 }

@@ -1,24 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@100&family=Roboto:wght@400;700&display=swap");
 body {
   margin: 0;
   background: #1B1B1E;
 }
 
 /* :root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
-}
+    --color-red: #f42;
+    --bg-color-red: #f42;
+  }
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*/
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  */
 ul {
   list-style: none;
 }
@@ -29,22 +29,14 @@ a {
 }
 
 /*
-a:hover {
-  color: #333;
-} */
-.hr-7 {
-  content: "";
-  width: 70px;
-  height: 1px;
-  margin-top: 10px;
-  background-color: #FFFFFF;
-}
-
+  a:hover {
+    color: #333;
+  } */
 /*
-    ==============================================
-                ****** GLOBAL ******
-    ==============================================
-*/
+      ==============================================
+                  ****** GLOBAL ******
+      ==============================================
+  */
 nav .nav-button {
   background-color: transparent;
   color: #fff;
@@ -53,6 +45,104 @@ nav .nav-button {
 }
 nav .nav-button .num {
   color: #49494B;
+}
+
+header .num {
+  position: absolute;
+  width: 41px;
+  height: 75px;
+  left: 16px;
+  top: 33px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 50px;
+  line-height: 75px;
+  /* identical to box height */
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+header .elipse {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 255px;
+  top: 76px;
+  background: #DB4747;
+  mix-blend-mode: lighten;
+}
+header .header-text .hello {
+  position: absolute;
+  width: 289px;
+  height: 18px;
+  left: 16px;
+  top: 95px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+header .header-text h1 {
+  position: absolute;
+  width: 288px;
+  height: 100px;
+  left: 16px;
+  top: 113px;
+  font-family: Playfair Display;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* or 50px */
+  color: #FFFFFF;
+}
+header .header-text .text {
+  position: absolute;
+  width: 288px;
+  height: 90px;
+  left: 16px;
+  top: 243px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+header .header-text .see-works {
+  position: absolute;
+  width: 113px;
+  height: 21px;
+  left: 16px;
+  top: 386px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #DB4747;
+}
+header .header-text .hr-7 {
+  position: absolute;
+  width: 70px;
+  height: 0px;
+  left: 16px;
+  top: 427px;
+  border: 1px solid #FFFFFF;
+}
+header .header-text ul {
+  position: absolute;
+  width: 289px;
+  height: 24px;
+  left: 16px;
+  top: 447px;
 }
 
 /*# sourceMappingURL=style.css.map */
