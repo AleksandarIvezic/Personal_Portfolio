@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:ital,wght@0,100;0,800;1,400&family=Roboto:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@100;500;900&family=Roboto:wght@400;700&display=swap');
 body {
   margin: 0;
   background: #1B1B1E;
@@ -61,12 +61,16 @@ h2 {
   color: #FFFFFF;
 }
 
-/*
+
   a:hover {
-    color: #333;
-  } */
+    color: #DB4747;
+  } 
 
-
+  header,
+  section,
+  footer {
+    padding: 0 10px;
+  }
 
 /*
       ==============================================
@@ -232,7 +236,6 @@ header {
 }
 
 .portfolio {
-  padding: 0;
   position: relative;
 
 
@@ -400,19 +403,34 @@ header {
     border: none;
   }
 }
+
 .text-area {
   padding-left: 20px;
-width: 288px;
-height: 112px;
-margin: 0 auto;
-background: #101010;
-border-radius: 4px;
-border:none;
-color: #fff;
+  width: 288px;
+  height: 112px;
+  margin: 0 auto;
+  background: #101010;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
 }
+
 .start {
   width: 288px;
-height: 44px;
-background-color: #DB4747;
-border: none;
+  height: 44px;
+  background-color: #DB4747;
+  border: none;
+  color:#fff;
+}
+
+footer {
+  .resume {
+    color: #DB4747;
+    font-family: Poppins;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+  }
 }
