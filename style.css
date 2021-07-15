@@ -36,11 +36,10 @@ h2 {
 }
 
 .num {
-  width: 58px;
-  height: 75px;
   font-family: Poppins;
   font-size: 50px;
   line-height: 75px;
+  font-weight: lighter;
   /* identical to box height */
   color: #FFFFFF;
   opacity: 0.2;
@@ -74,7 +73,7 @@ nav .nav-button {
   border: none;
   font-size: 2rem;
 }
-nav .nav-button .num {
+nav .num-c {
   color: #49494B;
 }
 
@@ -128,7 +127,7 @@ header .header-text ul {
 }
 .portfolio .project {
   position: relative;
-  min-width: 320px;
+  min-width: 280px;
   min-height: 186px;
   background: url(image.png), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url(image.png);
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
