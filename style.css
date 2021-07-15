@@ -62,6 +62,11 @@ footer {
   padding: 0 10px;
 }
 
+.close-details {
+  width: 40px;
+  height: 40px;
+}
+
 /*
       ==============================================
                   ****** GLOBAL ******
@@ -125,12 +130,14 @@ header .header-text ul {
   line-height: 18px;
   color: #FFFFFF;
 }
-.portfolio .project {
-  position: relative;
+.portfolio .project .project-details {
+  display: none;
+}
+.portfolio .project .img {
   min-width: 280px;
   min-height: 186px;
-  background: url(image.png), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url(image.png);
-  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("imgs/Screenshot-CakeFactory.png");
+  background-size: cover;
 }
 .portfolio .project ul {
   margin: 0;

@@ -68,6 +68,10 @@ h2 {
   footer {
     padding: 0 10px;
   }
+  .close-details {
+    width: 40px;
+    height: 40px;
+  }
 
 /*
       ==============================================
@@ -242,54 +246,58 @@ header {
   }
 
   .project {
-    position: relative;
-    min-width: 280px;
-    min-height: 186px;
-    background: url(image.png), linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url(image.png);
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-
-    ul {
-      margin: 0;
-      padding: 0;
-
-      li {
-        width: 87px;
-        height: 20px;
-        background: rgba(0, 0, 0, 0.5);
-
+    .project-details {
+      display: none;
+    }
+    
+      .img {
+        min-width: 280px;
+        min-height: 186px;
+        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("imgs/Screenshot-CakeFactory.png");
+        background-size: cover;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        
+        li {
+          width: 87px;
+          height: 20px;
+          background: rgba(0, 0, 0, 0.5);
+          
+          a {
+            font-family: Poppins;
+            font-weight: 300;
+            font-size: 10.3334px;
+            line-height: 80%;
+            color: #FFFFFF;
+          }
+        }
+      }
+      
+      .button {
+        position: absolute;
+        width: 178px;
+        height: 44px;
+        bottom: 10px;
+        left: 20px;
+        
+        /* Red */
+        background: #DB4747;
+        
         a {
           font-family: Poppins;
-          font-weight: 300;
-          font-size: 10.3334px;
-          line-height: 80%;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 24px;
+          
+          /* identical to box height */
+          text-align: center;
+          
           color: #FFFFFF;
         }
       }
-    }
-
-    .button {
-      position: absolute;
-      width: 178px;
-      height: 44px;
-      bottom: 10px;
-      left: 20px;
-
-      /* Red */
-      background: #DB4747;
-
-      a {
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 24px;
-
-        /* identical to box height */
-        text-align: center;
-
-        color: #FFFFFF;
-      }
-    }
   }
 }
 
