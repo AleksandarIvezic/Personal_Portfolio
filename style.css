@@ -155,7 +155,10 @@ header .header-text ul {
   line-height: 80%;
   color: #FFFFFF;
 }
-.portfolio .project .button {
+.portfolio .project .project-preview {
+  position: relative;
+}
+.portfolio .project .project-preview .button {
   position: absolute;
   width: 178px;
   height: 44px;
@@ -164,7 +167,7 @@ header .header-text ul {
   /* Red */
   background: #DB4747;
 }
-.portfolio .project .button a {
+.portfolio .project .project-preview .button a {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;

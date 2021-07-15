@@ -7,6 +7,7 @@ projectBtns = Array.from(projectBtns);
 details = Array.from(details);
 previews = Array.from(previews);
 closeBtns = Array.from(closeBtns);
+
 projectBtns.forEach((btn) => {
   btn.addEventListener("click", displayDetails);
 });
@@ -22,8 +23,6 @@ function displayDetails(e) {
 }
 function closeDetails(e) {
   let index = closeBtns.indexOf(e.currentTarget);
-
-  console.log(index);
   previews[index].style.display = "block";
   details[index].style.display = "none";
 }

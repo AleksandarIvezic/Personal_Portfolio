@@ -274,29 +274,32 @@ header {
           }
         }
       }
-      
-      .button {
-        position: absolute;
-        width: 178px;
-        height: 44px;
-        bottom: 10px;
-        left: 20px;
-        
-        /* Red */
-        background: #DB4747;
-        
-        a {
-          font-family: Poppins;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 16px;
-          line-height: 24px;
+      .project-preview {
+        position: relative;
+        .button {
+          position: absolute;
+          width: 178px;
+          height: 44px;
+          bottom: 10px;
+          left: 20px;
           
-          /* identical to box height */
-          text-align: center;
+          /* Red */
+          background: #DB4747;
           
-          color: #FFFFFF;
+          a {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            
+            /* identical to box height */
+            text-align: center;
+            
+            color: #FFFFFF;
+          }
         }
+
       }
   }
 }
