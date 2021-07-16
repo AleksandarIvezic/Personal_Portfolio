@@ -121,12 +121,6 @@ header .header-text i {
 .portfolio {
   position: relative;
 }
-.portfolio .recent {
-  font-family: Poppins;
-  font-size: 12px;
-  line-height: 18px;
-  color: #FFFFFF;
-}
 .portfolio .project .project-details {
   display: none;
 }
@@ -354,6 +348,19 @@ footer .resume {
   }
   header .header-text ul {
     width: 50%;
+  }
+
+  .portfolio {
+    position: relative;
+  }
+  .portfolio .num {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .portfolio .portfolio-text {
+    padding-top: 85px;
+    margin-left: 105px;
   }
 }
 

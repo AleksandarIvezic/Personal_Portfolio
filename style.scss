@@ -52,7 +52,6 @@ h2 {
   color: #FFFFFF;
 }
 
-
 a:hover {
   color: #DB4747;
 }
@@ -138,13 +137,6 @@ header {
 
 .portfolio {
   position: relative;
-
-  .recent {
-    font-family: Poppins;
-    font-size: 12px;
-    line-height: 18px;
-    color: #FFFFFF;
-  }
 
   .project {
     .project-details {
@@ -420,6 +412,19 @@ footer {
       ul {
         width: 50%;
       }
+    }
+  }
+
+  .portfolio {
+    position:relative;
+    .num {
+      position: absolute;
+      top: 0;
+      left: 0;;
+    }
+    .portfolio-text {
+      padding-top: 85px;
+      margin-left: 105px;
     }
   }
 
