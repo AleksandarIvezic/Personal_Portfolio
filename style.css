@@ -212,9 +212,7 @@ header .header-text i {
   margin: 20px 20px 20px 30px;
 }
 .about-me .about-box h4 {
-  width: 92px;
-  height: 24px;
-  margin: 20px 20px 20px 30px;
+  margin: 0 20px 20px 30px;
   font-family: Poppins;
   font-weight: bold;
   line-height: 24px;
@@ -353,6 +351,11 @@ footer .resume {
   .portfolio {
     position: relative;
   }
+  .portfolio h4 {
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+  }
   .portfolio .num {
     position: absolute;
     top: 0;
@@ -361,6 +364,37 @@ footer .resume {
   .portfolio .portfolio-text {
     padding-top: 85px;
     margin-left: 105px;
+  }
+  .portfolio .projects-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+  }
+  .portfolio .projects-container .projects-section {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio .projects-container .projects-section .project {
+    width: 100%;
+    height: 50%;
+  }
+  .portfolio .projects-container .projects-section .project .img {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .portfolio .projects-container .no-section {
+    width: 66%;
+    height: 100%;
+  }
+  .portfolio .projects-container .no-section .project {
+    width: 100%;
+    height: 100%;
+  }
+  .portfolio .projects-container .no-section .project .img {
+    min-width: 100%;
+    min-height: 100%;
   }
 }
 
