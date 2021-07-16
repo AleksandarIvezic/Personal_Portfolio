@@ -297,6 +297,7 @@ footer .resume {
 
   nav {
     width: 100%;
+    z-index: 1;
   }
   nav .navbar-nav {
     transform: rotate(90deg);
@@ -395,6 +396,21 @@ footer .resume {
   .portfolio .projects-container .no-section .project .img {
     min-width: 100%;
     min-height: 100%;
+  }
+
+  .about-me {
+    padding: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .about-me .about-box {
+    margin: 5px;
+    width: 45%;
+    height: 100%;
+  }
+  .about-me .portfolio-text,
+.about-me .boxes {
+    width: 50%;
   }
 }
 
