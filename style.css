@@ -178,6 +178,9 @@ header .header-text i {
   /* identical to box height */
   color: #FFFFFF;
 }
+.about-me .about-me-content {
+  margin-bottom: 50px;
+}
 .about-me .colaboration {
   width: 288px;
   height: 44px;
@@ -199,7 +202,7 @@ header .header-text i {
 .about-me .about-box {
   width: 238px;
   height: 238px;
-  margin: 0 auto;
+  margin: 10px auto;
   background: #212123;
   box-shadow: 0px 1.91837px 23.0204px rgba(0, 0, 0, 0.25);
   border-radius: 3.83673px;
@@ -277,7 +280,7 @@ footer .resume {
   line-height: 24px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .num {
     font-family: Poppins;
     font-size: 100px;
@@ -286,6 +289,10 @@ footer .resume {
     /* identical to box height */
     color: #FFFFFF;
     opacity: 0.2;
+  }
+
+  h2 {
+    font-size: 110px;
   }
 
   .text {
@@ -411,6 +418,34 @@ footer .resume {
   .about-me .portfolio-text,
 .about-me .boxes {
     width: 50%;
+  }
+
+  .get-started {
+    position: relative;
+    padding-left: 120px;
+    padding-top: 90px;
+  }
+  .get-started .num {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .get-started .get-started-content {
+    max-width: 700px;
+  }
+  .get-started .elipse {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    left: 800px;
+    top: 145px;
+    background: #DB4747;
+    mix-blend-mode: lighten;
+  }
+  .get-started .form-field,
+.get-started .text-area,
+.get-started .start {
+    width: 100%;
   }
 }
 
