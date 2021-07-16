@@ -346,6 +346,17 @@ footer {
 //Queries
 
 @media (min-width:768px) {
+  .num {
+    font-family: Poppins;
+    font-size: 100px;
+    line-height: 150px;
+    font-weight: lighter;
+    /* identical to box height */
+  
+    color: #FFFFFF;
+  
+    opacity: 0.2;
+  }
   nav {
     width: 100%;
 
@@ -356,11 +367,29 @@ footer {
       width: 0;
       right: 40px;
       top: 250px;
+
       li {
         margin: 10px;
       }
     }
 
+  }
+
+  header  {
+    max-width: 664px;
+    height: 549px;
+    margin:20px auto;
+    position: relative;
+    .elipse {
+      position: absolute;
+      width: 94px;
+      height: 94px;
+      left: 549px;
+      top: 76px;
+  
+      background: #DB4747;
+      mix-blend-mode: lighten;
+    }
   }
 
 }
