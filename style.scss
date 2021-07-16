@@ -114,7 +114,6 @@ header {
     }
 
     .see-works a {
-
       font-family: Roboto;
       font-size: 18px;
       line-height: 21px;
@@ -123,14 +122,16 @@ header {
 
     .hr-7 {
       width: 70px;
-      margin-top: 20px;
+      height: 0;
+      margin-top: 10px;
       border: 1px solid #FFFFFF;
     }
 
     ul {
       margin-top: 20px;
-      width: 289px;
-      height: 24px;
+    }
+    i {
+      font-size: 1.5rem;
     }
   }
 }
@@ -357,6 +358,14 @@ footer {
   
     opacity: 0.2;
   }
+  .text {
+
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+  
+    color: #FFFFFF;
+  }
   nav {
     width: 100%;
 
@@ -380,15 +389,37 @@ footer {
     height: 549px;
     margin:20px auto;
     position: relative;
+    padding: 100px 0 0 100px;
+    .num {
+      position: absolute;
+      top:0;
+      left:0;
+    }
     .elipse {
       position: absolute;
       width: 94px;
       height: 94px;
-      left: 549px;
-      top: 76px;
+      left: 550px;
+      top: 96px;
   
       background: #DB4747;
       mix-blend-mode: lighten;
+    }
+    .header-text {
+      position: relative;
+      h1 {
+        width: 300px;
+        font-size: 110px;
+        line-height: 100%;
+      }
+      .fa-angellist {
+        position: absolute;
+        bottom: 90px;
+        right: 20px;
+      }
+      ul {
+        width: 50%;
+      }
     }
   }
 
