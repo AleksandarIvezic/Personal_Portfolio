@@ -170,15 +170,6 @@ header .header-text i {
   color: #FFFFFF;
 }
 
-.about-me .some-words {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 18px;
-  /* identical to box height */
-  color: #FFFFFF;
-}
 .about-me .about-me-content {
   margin-bottom: 50px;
 }
@@ -281,6 +272,26 @@ footer .resume {
   line-height: 24px;
 }
 
+@media (min-width: 576px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    height: 1980px;
+  }
+  .portfolio .projects-container .projects-section,
+.portfolio .no-section .projects-section {
+    width: 100%;
+  }
+  .portfolio .projects-container .no-section,
+.portfolio .projects-container .project,
+.portfolio .projects-container .img,
+.portfolio .no-section .no-section,
+.portfolio .no-section .project,
+.portfolio .no-section .img {
+    width: 100%;
+    height: 300px;
+  }
+}
 @media (min-width: 768px) {
   .num {
     font-family: Poppins;

@@ -204,17 +204,6 @@ header {
 
 
 .about-me {
-  .some-words {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-
-    /* identical to box height */
-
-    color: #FFFFFF;
-  }
 
   .about-me-content {
     margin-bottom: 50px;
@@ -342,13 +331,25 @@ footer {
 
 //Queries
 
-// @media (min-width: 576px) {
-//   .portfolio {
-//     .img {
-//       width: 40%;
-//     }
-//   }
-// }
+@media (min-width: 576px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    height: 6*330px;
+    .projects-container,
+    .no-section {
+      .projects-section {
+        width: 100%;
+      }
+      .no-section,
+      .project,
+      .img {
+        width: 100%;
+        height: 300px;
+      }
+    }
+  }
+}
 
 @media (min-width:768px) {
   .num {
