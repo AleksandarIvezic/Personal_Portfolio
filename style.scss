@@ -146,7 +146,7 @@ header {
       display: none;
     }
 
-    .img {
+    .project-preview {
       min-height: 186px;
       background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("imgs/Screenshot-CakeFactory.png");
       background-size: cover;
@@ -173,7 +173,7 @@ header {
 
     .project-preview {
       position: relative;
-
+      height: 100%;
       .button {
         position: absolute;
         width: 178px;
@@ -343,7 +343,7 @@ footer {
       }
       .no-section,
       .project,
-      .img {
+      .project-preview {
         width: 100%;
         height: 300px;
       }
@@ -351,30 +351,19 @@ footer {
   }
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .num {
-    font-family: Poppins;
-    font-size: 100px;
+    font-size: 80px;
     line-height: 150px;
-    font-weight: lighter;
-    /* identical to box height */
-
-    color: #FFFFFF;
-
-    opacity: 0.2;
   }
 
   h2 {
-    font-size: 110px;
+    font-size: 85px;
   }
 
   .text {
-
-    font-family: Poppins;
-    font-size: 16px;
-    line-height: 24px;
-
-    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   nav {
@@ -396,7 +385,7 @@ footer {
 
   }
 
-  header {
+  #header {
     max-width: 664px;
     height: 549px;
     margin: 20px auto;
@@ -416,8 +405,6 @@ footer {
       left: 550px;
       top: 96px;
 
-      background: #DB4747;
-      mix-blend-mode: lighten;
     }
 
     .header-text {
@@ -425,25 +412,24 @@ footer {
 
       h1 {
         width: 300px;
-        font-size: 110px;
+        font-size: 85px;
         line-height: 100%;
       }
 
       .fa-angellist {
         position: absolute;
-        bottom: 90px;
+        bottom: 145px;
         right: 20px;
       }
 
       ul {
-        width: 50%;
+        width: 100%;
       }
     }
   }
 
   .portfolio {
-    position: relative;
-
+    height: 2*500px;
     h4 {
       padding-left: 20px;
       padding-top: 10px;
@@ -464,41 +450,123 @@ footer {
 
     .projects-container {
       width: 100%;
-      height: 500px;
+      height: 400px;
       display: flex;
-
+      .project-preview,
+      .project,
+      .projects-section,
+      .no-section {
+        height: 100%;
+      }
       .projects-section {
         width: 33%;
-        height: 100%;
         display: flex;
         flex-direction: column;
 
         .project {
-          width: 100%;
           height: 50%;
-
-          .img {
-            min-width: 100%;
-            min-height: 100%;
-          }
         }
       }
 
       .no-section {
         width: 66%;
-        height: 100%;
-
-        .project {
-          width: 100%;
-          height: 100%;
-
-
-          .img {
-            min-width: 100%;
-            min-height: 100%;
-          }
-        }
       }
+      
+    }
+  }
+
+  .about-me {
+    padding: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+
+    .about-box {
+      margin: 5px;
+      width: 45%;
+      height: 100%;
+    }
+
+    .about-me-content,
+    .boxes {
+      width: 50%;
+    }
+  }
+
+  .get-started {
+    position: relative;
+    padding-left: 120px;
+    padding-top: 90px;
+
+    .num {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .get-started-content {
+      max-width: 700px;
+    }
+
+    .elipse {
+
+      position: absolute;
+      width: 94px;
+      height: 94px;
+      left: 800px;
+      top: 145px;
+      background: #DB4747;
+      mix-blend-mode: lighten;
+    }
+
+    .form-field,
+    .text-area,
+    .start {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width:1200px) {
+  .num {
+    font-size: 100px;
+    line-height: 150px;
+  }
+
+  h2 {
+    font-size: 110px;
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+ 
+
+  #header {
+    .header-text {
+      position: relative;
+
+      h1 {
+        font-size: 110px;
+      }
+
+      .fa-angellist {
+        position: absolute;
+        bottom: 90px;
+        right: 20px;
+      }
+
+      ul {
+        width: 50%;
+      }
+    }
+  }
+
+  .portfolio {
+    height: 2*600px;
+    .projects-container {
+      height: 600px;
     }
   }
 
