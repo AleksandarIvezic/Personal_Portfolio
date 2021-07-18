@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@100;500;900&family=Roboto:wght@400;700&display=swap");
 body {
-  margin: 0;
+  margin: 0 auto;
   background: #1B1B1E;
 }
 
@@ -54,7 +54,7 @@ a:hover {
 header,
 section,
 footer {
-  padding: 0 10px;
+  padding: 0 30px;
 }
 
 .close-details {
@@ -90,12 +90,10 @@ header .elipse {
   mix-blend-mode: lighten;
 }
 header .header-text h1 {
+  width: 300px;
   font-family: Playfair Display;
   font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 50px;
-  letter-spacing: 0em;
   text-align: left;
   color: #FFFFFF;
 }
@@ -121,11 +119,14 @@ header .header-text i {
 .portfolio {
   position: relative;
 }
+.portfolio .projects-container {
+  justify-content: center;
+  width: 100%;
+}
 .portfolio .project .project-details {
   display: none;
 }
 .portfolio .project .img {
-  min-width: 280px;
   min-height: 186px;
   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("imgs/Screenshot-CakeFactory.png");
   background-size: cover;
@@ -280,7 +281,7 @@ footer .resume {
   line-height: 24px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .num {
     font-family: Poppins;
     font-size: 100px;
@@ -415,7 +416,7 @@ footer .resume {
     width: 45%;
     height: 100%;
   }
-  .about-me .portfolio-text,
+  .about-me .about-me-content,
 .about-me .boxes {
     width: 50%;
   }
