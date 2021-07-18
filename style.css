@@ -69,9 +69,13 @@ footer {
   */
 nav .nav-button {
   background-color: transparent;
-  color: #fff;
+  color: #DB4747;
+  opacity: 0.5;
   border: none;
   font-size: 2rem;
+}
+nav .nav-button:hover {
+  opacity: 0.8;
 }
 nav .num-c {
   color: #49494B;
@@ -102,6 +106,9 @@ header .header-text .see-works a {
   font-size: 18px;
   line-height: 21px;
   color: #DB4747;
+}
+header .header-text .see-works a:hover {
+  text-decoration: underline;
 }
 header .header-text .hr-7 {
   width: 70px;
@@ -139,6 +146,9 @@ header .header-text i {
   margin: 0 auto;
   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("imgs/Screenshot-CakeFactory.png");
   background-size: cover;
+}
+.portfolio .project .project-details .links a:hover {
+  text-decoration: underline;
 }
 .portfolio .project .project-preview {
   min-height: 200px;
@@ -186,6 +196,9 @@ header .header-text i {
   text-align: center;
   color: #FFFFFF;
 }
+.portfolio .project .project-preview .button:hover {
+  box-shadow: 0px 2px 15px 0px rgba(219, 71, 71, 0.6);
+}
 
 .about-me .about-me-content {
   margin-bottom: 50px;
@@ -207,6 +220,9 @@ header .header-text i {
   /* identical to box height */
   text-align: center;
   color: #FFFFFF;
+}
+.about-me .colaboration:hover {
+  box-shadow: 0px 2px 15px 0px rgba(219, 71, 71, 0.6);
 }
 .about-me .about-box {
   width: 238px;
@@ -281,12 +297,19 @@ header .header-text i {
   color: #fff;
 }
 
+.start:hover {
+  box-shadow: 0px 2px 15px 0px rgba(219, 71, 71, 0.6);
+}
+
 footer .resume {
   color: #DB4747;
   font-family: Poppins;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+}
+footer .resume:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 576px) {
@@ -544,7 +567,7 @@ footer .resume {
   }
 
   .about-me {
-    padding: 100px;
+    padding: 90px;
   }
 
   .get-started .elipse {

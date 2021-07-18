@@ -76,9 +76,14 @@ footer {
 nav {
   .nav-button {
     background-color: transparent;
-    color: #fff;
+    color: #DB4747;
+    opacity: 0.5;
     border: none;
     font-size: 2rem;
+  }
+
+  .nav-button:hover {
+    opacity: 0.8;
   }
 
   .num-c {
@@ -117,6 +122,10 @@ header {
       color: #DB4747;
     }
 
+    .see-works a:hover {
+      text-decoration: underline;
+    }
+
     .hr-7 {
       width: 70px;
       height: 0;
@@ -139,16 +148,19 @@ header {
 
   .projects-container,
   .projects-section,
-  .no-section  {
+  .no-section {
     justify-content: center;
     width: 100%;
   }
+
   .project {
     width: 100%;
+
     .project-details {
       display: none;
       margin: 10px auto;
       background-color: #1B1B1E;
+
       .img {
         min-height: 186px;
         max-width: 300px;
@@ -156,13 +168,16 @@ header {
         background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("imgs/Screenshot-CakeFactory.png");
         background-size: cover;
       }
+      .links a:hover {        
+        text-decoration: underline;
+      }
     }
 
     .project-preview {
       min-height: 200px;
-      
+
       max-width: 350px;
-      
+
       margin: 0 auto;
       background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("imgs/Screenshot-CakeFactory.png");
       background-size: cover;
@@ -190,6 +205,7 @@ header {
     .project-preview {
       position: relative;
       height: 100%;
+
       .button {
         position: absolute;
         width: 178px;
@@ -212,6 +228,10 @@ header {
 
           color: #FFFFFF;
         }
+      }
+
+      .button:hover {
+        box-shadow: 0px 2px 15px 0px rgba(219, 71, 71, .6);
       }
 
     }
@@ -247,6 +267,9 @@ header {
       color: #FFFFFF;
     }
 
+  }
+  .colaboration:hover {    
+    box-shadow: 0px 2px 15px 0px rgba(219, 71, 71, .6);
   }
 
   .about-box {
@@ -332,6 +355,9 @@ header {
   border: none;
   color: #fff;
 }
+.start:hover {
+  box-shadow: 0px 2px 15px 0px rgba(219, 71, 71, .6);
+}
 
 footer {
   .resume {
@@ -342,6 +368,9 @@ footer {
     font-size: 16px;
     line-height: 24px;
 
+  }
+  .resume:hover {
+    text-decoration: underline;
   }
 }
 
@@ -387,15 +416,18 @@ footer {
 
     }
   }
+
   .portfolio {
     display: flex;
     flex-direction: column;
     height: 6*330px;
+
     .projects-container,
     .no-section {
       .projects-section {
         width: 100%;
       }
+
       .no-section,
       .project,
       .project-preview {
@@ -404,11 +436,13 @@ footer {
         height: 300px;
       }
     }
+
     .project {
 
       .project-details {
         position: relative;
         z-index: 11;
+
         .img {
           max-width: 500px;
           height: 300px;
@@ -421,7 +455,7 @@ footer {
 
 @media (min-width: 768px) {
   .portfolio {
-    .project{
+    .project {
       .project-preview {
         max-width: 516px;
       }
@@ -486,6 +520,7 @@ footer {
   .portfolio {
     padding: 0;
     height: 2*500px;
+
     h4 {
       padding-left: 20px;
       padding-top: 10px;
@@ -503,8 +538,9 @@ footer {
       padding-top: 85px;
       margin-left: 105px;
     }
+
     .project {
-      .project-preview{
+      .project-preview {
         max-width: none;
       }
     }
@@ -514,12 +550,14 @@ footer {
       width: 100%;
       height: 400px;
       display: flex;
+
       .project-preview,
       .project,
       .projects-section,
       .no-section {
         height: 100%;
       }
+
       .projects-section {
         width: 33%;
         display: flex;
@@ -529,33 +567,39 @@ footer {
           height: 50%;
         }
       }
+
       .no-section {
         width: 66%;
       }
+
       .project-details {
         border: #49494B 1px solid;
         position: absolute;
-        top:0;
+        top: 0;
         left: 0;
         width: 95%;
         margin-left: 20px;
         margin-top: 20px;
+
         .img {
           width: 50%;
         }
+
         .details-text {
           width: 50%;
         }
+
         .close-details {
           position: absolute;
-          top:-45px;
+          top: -45px;
           right: -20px;
         }
+
         ul {
           justify-content: start;
         }
       }
-      
+
     }
   }
 
@@ -615,7 +659,7 @@ footer {
     line-height: 24px;
   }
 
- 
+
 
   #header {
     .header-text {
@@ -639,13 +683,14 @@ footer {
 
   .portfolio {
     height: 2*600px;
+
     .projects-container {
       height: 600px;
     }
   }
 
   .about-me {
-    padding: 100px;   
+    padding: 90px;
   }
 
   .get-started {
