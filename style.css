@@ -293,7 +293,7 @@ footer .resume {
   .portfolio {
     display: flex;
     flex-direction: column;
-    height: 2580px;
+    height: 1980px;
   }
   .portfolio .projects-container .projects-section,
 .portfolio .no-section .projects-section {
