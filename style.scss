@@ -2,7 +2,8 @@
 
 body {
   margin: 0 auto;
-  background: #1B1B1E;
+  // background: #1B1B1E;
+  background: repeating-linear-gradient(90deg, #1B1B1E, #1B1B1E 169px, #212123 169px, #212123 170px);
 }
 
 *,
@@ -89,6 +90,7 @@ nav {
   .num-c {
     color: #49494B;
   }
+
 }
 
 header {
@@ -143,6 +145,10 @@ header {
   }
 }
 
+.wrapper {
+  background-color: #101010;
+}
+
 .portfolio {
   position: relative;
 
@@ -168,7 +174,8 @@ header {
         background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("imgs/Screenshot-CakeFactory.png");
         background-size: cover;
       }
-      .links a:hover {        
+
+      .links a:hover {
         text-decoration: underline;
       }
     }
@@ -268,7 +275,8 @@ header {
     }
 
   }
-  .colaboration:hover {    
+
+  .colaboration:hover {
     box-shadow: 0px 2px 15px 0px rgba(219, 71, 71, .6);
   }
 
@@ -307,6 +315,10 @@ header {
       color: #7D7C84;
     }
   }
+}
+
+.get-wrapper {
+  background-color: #212123;
 }
 
 .form-field {
@@ -355,6 +367,7 @@ header {
   border: none;
   color: #fff;
 }
+
 .start:hover {
   box-shadow: 0px 2px 15px 0px rgba(219, 71, 71, .6);
 }
@@ -369,6 +382,7 @@ footer {
     line-height: 24px;
 
   }
+
   .resume:hover {
     text-decoration: underline;
   }
