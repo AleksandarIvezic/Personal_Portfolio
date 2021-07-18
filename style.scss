@@ -331,7 +331,7 @@ footer {
 
 //Queries
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .portfolio {
     display: flex;
     flex-direction: column;
@@ -351,7 +351,7 @@ footer {
   }
 }
 
-@media (min-width:768px) {
+@media (min-width:992px) {
   .num {
     font-family: Poppins;
     font-size: 100px;

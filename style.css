@@ -272,7 +272,7 @@ footer .resume {
   line-height: 24px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .portfolio {
     display: flex;
     flex-direction: column;
@@ -292,7 +292,7 @@ footer .resume {
     height: 300px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .num {
     font-family: Poppins;
     font-size: 100px;
