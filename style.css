@@ -119,12 +119,24 @@ header .header-text i {
 .portfolio {
   position: relative;
 }
-.portfolio .projects-container {
+.portfolio .projects-container,
+.portfolio .projects-section,
+.portfolio .no-section {
   justify-content: center;
+  width: 100%;
+}
+.portfolio .project {
   width: 100%;
 }
 .portfolio .project .project-details {
   display: none;
+  margin: 10px auto;
+  background-color: #1B1B1E;
+}
+.portfolio .project .project-details .img {
+  min-height: 186px;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("imgs/Screenshot-CakeFactory.png");
+  background-size: cover;
 }
 .portfolio .project .project-preview {
   min-height: 186px;
@@ -273,11 +285,11 @@ footer .resume {
   line-height: 24px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .portfolio {
     display: flex;
     flex-direction: column;
-    height: 1980px;
+    height: 2580px;
   }
   .portfolio .projects-container .projects-section,
 .portfolio .no-section .projects-section {
@@ -290,7 +302,16 @@ footer .resume {
 .portfolio .no-section .project,
 .portfolio .no-section .project-preview {
     width: 100%;
+    height: 400px;
+  }
+  .portfolio .project-details {
+    position: relative;
+    z-index: 11;
+  }
+  .portfolio .project-details .img {
+    width: 500px;
     height: 300px;
+    margin: 0 auto;
   }
 }
 @media (min-width: 992px) {
@@ -401,7 +422,8 @@ footer .resume {
   }
 
   .about-me {
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: row-reverse;
   }
@@ -427,15 +449,6 @@ footer .resume {
   }
   .get-started .get-started-content {
     max-width: 700px;
-  }
-  .get-started .elipse {
-    position: absolute;
-    width: 94px;
-    height: 94px;
-    left: 800px;
-    top: 145px;
-    background: #DB4747;
-    mix-blend-mode: lighten;
   }
   .get-started .form-field,
 .get-started .text-area,
@@ -482,32 +495,8 @@ footer .resume {
 
   .about-me {
     padding: 100px;
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .about-me .about-box {
-    margin: 5px;
-    width: 45%;
-    height: 100%;
-  }
-  .about-me .about-me-content,
-.about-me .boxes {
-    width: 50%;
   }
 
-  .get-started {
-    position: relative;
-    padding-left: 120px;
-    padding-top: 90px;
-  }
-  .get-started .num {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .get-started .get-started-content {
-    max-width: 700px;
-  }
   .get-started .elipse {
     position: absolute;
     width: 94px;
@@ -516,11 +505,6 @@ footer .resume {
     top: 145px;
     background: #DB4747;
     mix-blend-mode: lighten;
-  }
-  .get-started .form-field,
-.get-started .text-area,
-.get-started .start {
-    width: 100%;
   }
 }
 

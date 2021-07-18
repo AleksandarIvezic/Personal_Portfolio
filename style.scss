@@ -137,13 +137,23 @@ header {
 .portfolio {
   position: relative;
 
-  .projects-container {
+  .projects-container,
+  .projects-section,
+  .no-section  {
     justify-content: center;
     width: 100%;
   }
   .project {
+    width: 100%;
     .project-details {
       display: none;
+      margin: 10px auto;
+      background-color: #1B1B1E;
+      .img {
+        min-height: 186px;
+        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("imgs/Screenshot-CakeFactory.png");
+        background-size: cover;
+      }
     }
 
     .project-preview {
@@ -331,11 +341,11 @@ footer {
 
 //Queries
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .portfolio {
     display: flex;
     flex-direction: column;
-    height: 6*330px;
+    height: 6*430px;
     .projects-container,
     .no-section {
       .projects-section {
@@ -345,7 +355,16 @@ footer {
       .project,
       .project-preview {
         width: 100%;
+        height: 400px;
+      }
+    }
+    .project-details {
+      position: relative;
+      z-index: 11;
+      .img {
+        width: 500px;
         height: 300px;
+        margin: 0 auto;
       }
     }
   }
@@ -476,7 +495,8 @@ footer {
   }
 
   .about-me {
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: row-reverse;
 
@@ -505,17 +525,6 @@ footer {
 
     .get-started-content {
       max-width: 700px;
-    }
-
-    .elipse {
-
-      position: absolute;
-      width: 94px;
-      height: 94px;
-      left: 800px;
-      top: 145px;
-      background: #DB4747;
-      mix-blend-mode: lighten;
     }
 
     .form-field,
@@ -571,37 +580,10 @@ footer {
   }
 
   .about-me {
-    padding: 100px;
-    display: flex;
-    flex-direction: row-reverse;
-
-    .about-box {
-      margin: 5px;
-      width: 45%;
-      height: 100%;
-    }
-
-    .about-me-content,
-    .boxes {
-      width: 50%;
-    }
+    padding: 100px;   
   }
 
   .get-started {
-    position: relative;
-    padding-left: 120px;
-    padding-top: 90px;
-
-    .num {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-
-    .get-started-content {
-      max-width: 700px;
-    }
-
     .elipse {
 
       position: absolute;
@@ -611,12 +593,6 @@ footer {
       top: 145px;
       background: #DB4747;
       mix-blend-mode: lighten;
-    }
-
-    .form-field,
-    .text-area,
-    .start {
-      width: 100%;
     }
   }
 }
