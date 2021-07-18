@@ -290,6 +290,39 @@ footer .resume {
 }
 
 @media (min-width: 576px) {
+  #header {
+    max-width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    position: relative;
+    padding: 100px 0 0 100px;
+  }
+  #header .num {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #header .elipse {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 350px;
+    top: 100px;
+  }
+  #header .header-text {
+    position: relative;
+  }
+  #header .header-text h1 {
+    width: 300px;
+    font-size: 50px;
+    line-height: 100%;
+  }
+  #header .header-text .fa-angellist {
+    position: absolute;
+    bottom: 145px;
+    right: 20px;
+  }
+
   .portfolio {
     display: flex;
     flex-direction: column;
@@ -358,14 +391,6 @@ footer .resume {
   #header {
     max-width: 664px;
     height: 549px;
-    margin: 20px auto;
-    position: relative;
-    padding: 100px 0 0 100px;
-  }
-  #header .num {
-    position: absolute;
-    top: 0;
-    left: 0;
   }
   #header .elipse {
     position: absolute;
@@ -374,21 +399,8 @@ footer .resume {
     left: 550px;
     top: 96px;
   }
-  #header .header-text {
-    position: relative;
-  }
   #header .header-text h1 {
-    width: 300px;
     font-size: 85px;
-    line-height: 100%;
-  }
-  #header .header-text .fa-angellist {
-    position: absolute;
-    bottom: 145px;
-    right: 20px;
-  }
-  #header .header-text ul {
-    width: 100%;
   }
 
   .portfolio {

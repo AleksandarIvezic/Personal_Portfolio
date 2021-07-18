@@ -348,6 +348,45 @@ footer {
 //Queries
 
 @media (min-width: 576px) {
+  #header {
+    max-width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    position: relative;
+    padding: 100px 0 0 100px;
+
+    .num {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .elipse {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      left: 350px;
+      top: 100px;
+
+    }
+
+    .header-text {
+      position: relative;
+
+      h1 {
+        width: 300px;
+        font-size: 50px;
+        line-height: 100%;
+      }
+
+      .fa-angellist {
+        position: absolute;
+        bottom: 145px;
+        right: 20px;
+      }
+
+    }
+  }
   .portfolio {
     display: flex;
     flex-direction: column;
@@ -427,15 +466,6 @@ footer {
   #header {
     max-width: 664px;
     height: 549px;
-    margin: 20px auto;
-    position: relative;
-    padding: 100px 0 0 100px;
-
-    .num {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
 
     .elipse {
       position: absolute;
@@ -447,22 +477,8 @@ footer {
     }
 
     .header-text {
-      position: relative;
-
       h1 {
-        width: 300px;
         font-size: 85px;
-        line-height: 100%;
-      }
-
-      .fa-angellist {
-        position: absolute;
-        bottom: 145px;
-        right: 20px;
-      }
-
-      ul {
-        width: 100%;
       }
     }
   }
