@@ -1,18 +1,20 @@
 ![](https://img.shields.io/badge/myapp-blueviolet)
 
-# Project Name
+# Personal portfolio
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](/imgs/Screenshot.png)
 
-Additional description about the project and its features.
+In this project I created Personal portfolio using template from Sigma website
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5
+- CSS3
+- Bootstrap 5
+- Sass 
+- JavaScript 
 
 ## Live Demo
 
@@ -43,23 +45,19 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Aleksandar Ivezic**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@ShinobiWarior](https://github.com/shinobiwarior)
+- Twitter: [@AIvezic](https://twitter.com/AIvezic)
+- LinkedIn: [Aleksandar Ivezic](https://linkedin.com/in/aleksandar-ivezic)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/ShinobiWarior/Personal_Portfolio/issues/).
 
 ## Show your support
 
