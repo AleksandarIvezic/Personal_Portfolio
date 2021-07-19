@@ -148,8 +148,6 @@ header .header-text i {
   min-height: 186px;
   max-width: 300px;
   margin: 0 auto;
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url("imgs/Screenshot-CakeFactory.png");
-  background-size: cover;
 }
 .portfolio .project .project-details .links a:hover {
   text-decoration: underline;
