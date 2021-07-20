@@ -41,6 +41,6 @@ for (let i=0; i<6; i++) {
   images[i].style.background = previews[i].style.background;
   previews[i].style.backgroundSize = "cover";
   images[i].style.backgroundSize = "cover";
-  previewHeadings[i].innerHTML = projects[i];
-  detailsHeadings[i].innerHTML = projects[i];
+  previewHeadings[i].innerText = projects[i];
+  detailsHeadings[i].innerText = projects[i];
 }
