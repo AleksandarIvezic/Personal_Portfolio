@@ -1,6 +1,8 @@
 ![](https://img.shields.io/badge/myapp-blueviolet)
 
+
 # Personal portfolio
+
 
 > One paragraph statement about the project.
 
@@ -15,6 +17,7 @@ In this project I created Personal portfolio using template from Sigma website
 - Bootstrap 5
 - Sass 
 - JavaScript 
+
 
 ## Live Demo
 
