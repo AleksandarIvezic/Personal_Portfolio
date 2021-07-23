@@ -1,22 +1,27 @@
 ![](https://img.shields.io/badge/myapp-blueviolet)
 
-# Personal_portfolio
+
+# Personal portfolio
+
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](/imgs/Screenshot.png)
 
-Additional description about the project and its features.
+In this project I created Personal portfolio using template from Sigma website
 
 ## Built With
 
 - HTML5
 - CSS3
-- Sass
+- Bootstrap 5
+- Sass 
+- JavaScript 
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://shinobiwarior.github.io/Personal_Portfolio/)
 
 
 ## Getting Started
