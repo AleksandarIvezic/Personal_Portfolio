@@ -1,0 +1,1 @@
+let projectPreviews = document.getElementsByClassName("project-preview")
