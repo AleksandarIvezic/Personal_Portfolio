@@ -18,7 +18,7 @@ In this project I created Personal portfolio using template from Sigma website
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://shinobiwarior.github.io/Personal_Portfolio/)
 
 
 ## Getting Started
