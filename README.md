@@ -24,7 +24,7 @@ In this project I created Personal portfolio using template from Sigma website
 [Live Demo Link](https://shinobiwarior.github.io/Personal_Portfolio/)
 
 
-## Authors
+## Author
 
 👤 **Aleksandar Ivezic**
 
