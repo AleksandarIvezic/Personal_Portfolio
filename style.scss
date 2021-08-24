@@ -111,8 +111,8 @@ nav {
   }
 
   .about-box {
-    width: 238px;
-    height: 238px;
+    width: 250px;
+    height: 250px;
     margin: 10px auto;
     background: #212123;
     box-shadow: 0 1.91837px 23.0204px rgba(0, 0, 0, 0.25);
@@ -150,8 +150,6 @@ header {
     height: 50px;
     left: 255px;
     top: 76px;
-    background: #db4747;
-    mix-blend-mode: lighten;
   }
 
   .header-text {
@@ -408,6 +406,9 @@ footer {
       }
     }
   }
+  .about-me {
+    padding: 30px 0;
+  }
 }
 
 @media (min-width: 768px) {
@@ -417,6 +418,9 @@ footer {
         max-width: 516px;
       }
     }
+  }
+  .about-me {
+    padding: 80px;
   }
 }
 
@@ -557,15 +561,14 @@ footer {
   }
 
   .about-me {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
     display: flex;
     flex-direction: row-reverse;
 
     .about-box {
       margin: 5px;
       width: 45%;
-      height: 100%;
+      height: 250px;
     }
 
     .about-me-content,
@@ -595,6 +598,7 @@ footer {
       width: 100%;
     }
   }
+  
 }
 
 @media (min-width: 1200px) {
