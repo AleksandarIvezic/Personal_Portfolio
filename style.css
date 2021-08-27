@@ -143,6 +143,8 @@ header .elipse {
   height: 50px;
   left: 255px;
   top: 76px;
+  background: #db4747;
+  mix-blend-mode: lighten;
 }
 
 header .header-text h1 {
