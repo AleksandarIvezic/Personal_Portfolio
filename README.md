@@ -8,7 +8,7 @@
 
 ![screenshot](/imgs/Screenshot.png)
 
-In this project I created Personal portfolio using template from Sigma website
+In this project, I created a Personal portfolio using a template from the Sigma website
 
 ## Built With
 
@@ -46,9 +46,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This project was inspired by [Microverse](https://www.microverse.org/?grsf=w9rx3c)
 
 ## 📝 License
 
