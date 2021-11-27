@@ -6,7 +6,7 @@ let closeBtns = document.getElementsByClassName("close-details");
 let images = document.getElementsByClassName("img");
 let previewHeadings = document.getElementsByClassName("preview-heading");
 let detailsHeadings = document.getElementsByClassName("details-heading");
-const projects = ["Tic-Tac-Toe", "Cake Factory", "Group our Cakes", "Canvas","Calculator", "Bujinkan web page"];
+const projects = ["Tic-Tac-Toe", "Covid-19 Tracking Project", "Group our Cakes", "Booking-vacations","Calculator", "Bujinkan web page"];
    
 //Transform Html collections into arrays
 projectBtns = Array.from(projectBtns);
@@ -37,7 +37,7 @@ function closeDetails(e) {
 }
 //Display project images and headings
 for (let i=0; i<6; i++) {
-  previews[i].style.background = "linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url(imgs/Project-"+i+".png)";
+  previews[i].style.background = "radial-gradient(rgba(59, 59, 59, 0.5) 70.44%, #000000 150%), url(imgs/Project-"+i+".png)";
   images[i].style.background = previews[i].style.background;
   previews[i].style.backgroundSize = "cover";
   images[i].style.backgroundSize = "cover";
