@@ -1,1 +1,2 @@
-let projectPreviews = document.getElementsByClassName("project-preview")
+const projectPreviews = document.getElementsByClassName('project-preview');
+export default projectPreviews;
