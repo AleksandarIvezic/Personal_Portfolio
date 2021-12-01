@@ -152,7 +152,9 @@ header {
     height: 50px;
     left: 255px;
     top: 76px;
-    background: #db4747;
+    background-image: url('imgs/crno-belo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     mix-blend-mode: lighten;
   }
 
@@ -242,6 +244,11 @@ header {
       margin: 0 auto;
       position: relative;
       height: 100%;
+      border: 2px solid #1B1B1E;
+
+      h4, ul, li, .button {
+        display: none !important;
+      }
 
       .button {
         position: absolute;
@@ -264,6 +271,13 @@ header {
       .button:hover {
         box-shadow: 0 2px 15px 0 rgba(219, 71, 71, 0.6);
       }
+    }
+
+    .project-preview:hover {    
+      h4, ul, li, .button {
+        display: flex !important;
+      } 
+      
     }
   }
 }
