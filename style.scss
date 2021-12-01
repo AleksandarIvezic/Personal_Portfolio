@@ -244,9 +244,12 @@ header {
       margin: 0 auto;
       position: relative;
       height: 100%;
-      border: 2px solid #1B1B1E;
+      border: 2px solid #1b1b1e;
 
-      h4, ul, li, .button {
+      h4,
+      ul,
+      li,
+      .button {
         display: none !important;
       }
 
@@ -273,11 +276,13 @@ header {
       }
     }
 
-    .project-preview:hover {    
-      h4, ul, li, .button {
+    .project-preview:hover {
+      h4,
+      ul,
+      li,
+      .button {
         display: flex !important;
-      } 
-      
+      }
     }
   }
 }

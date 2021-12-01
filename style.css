@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@100;500;900&family=Roboto:wght@400;700&display=swap");
+
 body {
   color: #fff;
   margin: 0 auto;
@@ -236,10 +237,13 @@ header .header-text i {
   margin: 0 auto;
   position: relative;
   height: 100%;
-  border: 2px solid #1B1B1E;
+  border: 2px solid #1b1b1e;
 }
 
-.portfolio .project .project-preview h4, .portfolio .project .project-preview ul, .portfolio .project .project-preview li, .portfolio .project .project-preview .button {
+.portfolio .project .project-preview h4,
+.portfolio .project .project-preview ul,
+.portfolio .project .project-preview li,
+.portfolio .project .project-preview .button {
   display: none !important;
 }
 
@@ -265,7 +269,10 @@ header .header-text i {
   box-shadow: 0 2px 15px 0 rgba(219, 71, 71, 0.6);
 }
 
-.portfolio .project .project-preview:hover h4, .portfolio .project .project-preview:hover ul, .portfolio .project .project-preview:hover li, .portfolio .project .project-preview:hover .button {
+.portfolio .project .project-preview:hover h4,
+.portfolio .project .project-preview:hover ul,
+.portfolio .project .project-preview:hover li,
+.portfolio .project .project-preview:hover .button {
   display: flex !important;
 }
 
@@ -343,11 +350,13 @@ footer .resume:hover {
     position: relative;
     padding: 100px 0 0 100px;
   }
+
   #header .num {
     position: absolute;
     top: 0;
     left: 0;
   }
+
   #header .elipse {
     position: absolute;
     width: 50px;
@@ -355,37 +364,45 @@ footer .resume:hover {
     left: 350px;
     top: 10px;
   }
+
   #header .header-text {
     position: relative;
   }
+
   #header .header-text h1 {
     width: 300px;
     font-size: 50px;
     line-height: 100%;
   }
+
   #header .header-text .fa-angellist {
     position: absolute;
     bottom: 145px;
     right: 20px;
   }
+
   .portfolio {
     display: flex;
     flex-direction: column;
     height: 1980px;
   }
+
   .portfolio .project .project-details {
     position: relative;
     z-index: 11;
   }
+
   .portfolio .project .project-details .img {
     max-width: 500px;
     height: 300px;
     margin: 0 auto;
   }
+
   .portfolio .projects-container .projects-section,
   .portfolio .no-section .projects-section {
     width: 100%;
   }
+
   .portfolio .projects-container .no-section,
   .portfolio .projects-container .project,
   .portfolio .projects-container .project-preview,
@@ -396,6 +413,7 @@ footer .resume:hover {
     width: 100%;
     height: 300px;
   }
+
   .about-me {
     padding: 30px 0;
   }
@@ -405,6 +423,7 @@ footer .resume:hover {
   .portfolio .project .project-preview {
     max-width: 516px;
   }
+
   .about-me {
     padding: 80px;
   }
@@ -415,17 +434,21 @@ footer .resume:hover {
     font-size: 80px;
     line-height: 150px;
   }
+
   h2 {
     font-size: 85px;
   }
+
   .text {
     font-size: 14px;
     line-height: 20px;
   }
+
   nav {
     width: 100%;
     z-index: 1;
   }
+
   nav .navbar-nav {
     transform: rotate(90deg);
     position: fixed;
@@ -434,13 +457,16 @@ footer .resume:hover {
     right: 40px;
     top: 250px;
   }
+
   nav .navbar-nav li {
     margin: 10px;
   }
+
   #header {
     max-width: 664px;
     height: 549px;
   }
+
   #header .elipse {
     position: absolute;
     width: 94px;
@@ -448,53 +474,65 @@ footer .resume:hover {
     left: 500px;
     top: 20px;
   }
+
   #header .header-text h1 {
     font-size: 85px;
   }
+
   .portfolio {
     padding: 0;
     height: 1000px;
   }
+
   .portfolio h4 {
     padding-left: 20px;
     padding-top: 10px;
     margin-bottom: 30px;
   }
+
   .portfolio .num {
     position: absolute;
     top: 0;
     left: 0;
   }
+
   .portfolio .portfolio-text {
     padding-top: 85px;
     margin-left: 105px;
   }
+
   .portfolio .project .project-preview {
     max-width: none;
   }
+
   .portfolio .projects-container {
     position: relative;
     width: 100%;
     height: 400px;
     display: flex;
   }
+
   .portfolio .projects-container .project-preview,
   .portfolio .projects-container .project,
   .portfolio .projects-container .projects-section,
   .portfolio .projects-container .no-section {
     height: 100%;
   }
+
   .portfolio .projects-container .projects-section {
     width: 33%;
     display: flex;
     flex-direction: column;
   }
+
   .portfolio .projects-container .projects-section .project {
     height: 50%;
   }
+
   .portfolio .projects-container .no-section {
     width: 66%;
   }
+
   .portfolio .projects-container .project-details {
     border: #49494b 1px solid;
     position: absolute;
@@ -504,47 +542,58 @@ footer .resume:hover {
     margin-left: 20px;
     margin-top: 20px;
   }
+
   .portfolio .projects-container .project-details .img {
     width: 50%;
   }
+
   .portfolio .projects-container .project-details .details-text {
     width: 50%;
   }
+
   .portfolio .projects-container .project-details .close-details {
     position: absolute;
     top: -45px;
     right: -20px;
   }
+
   .portfolio .projects-container .project-details ul {
     justify-content: start;
   }
+
   .about-me {
     padding: 100px 0;
     display: flex;
     flex-direction: row-reverse;
   }
+
   .about-me .about-box {
     margin: 5px;
     width: 45%;
     height: 250px;
   }
+
   .about-me .about-me-content,
   .about-me .boxes {
     width: 50%;
   }
+
   .get-started {
     position: relative;
     padding-left: 120px;
     padding-top: 90px;
   }
+
   .get-started .num {
     position: absolute;
     top: 0;
     left: 0;
   }
+
   .get-started .get-started-content {
     max-width: 700px;
   }
+
   .get-started .form-field,
   .get-started .text-area,
   .get-started .start {
@@ -557,36 +606,46 @@ footer .resume:hover {
     font-size: 100px;
     line-height: 150px;
   }
+
   h2 {
     font-size: 110px;
   }
+
   .text {
     font-size: 16px;
     line-height: 24px;
   }
+
   #header .header-text {
     position: relative;
   }
+
   #header .header-text h1 {
     font-size: 110px;
   }
+
   #header .header-text .fa-angellist {
     position: absolute;
     bottom: 90px;
     right: 20px;
   }
+
   #header .header-text ul {
     width: 50%;
   }
+
   .portfolio {
     height: 1200px;
   }
+
   .portfolio .projects-container {
     height: 600px;
   }
+
   .about-me {
     padding: 90px;
   }
+
   .get-started .elipse {
     position: absolute;
     width: 94px;
@@ -597,4 +656,3 @@ footer .resume:hover {
     mix-blend-mode: lighten;
   }
 }
-/*# sourceMappingURL=style.css.map */
