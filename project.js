@@ -38,7 +38,7 @@ closeBtns.forEach((btn) => {
 // Display project images and headings
 for (let i = 0; i < 6; i += 1) {
   previews[i].style.background = `radial-gradient(rgba(59, 59, 59, 0.5) 70.44%, #000000 150%), url(imgs/Project-${i}.png)`;
-  images[i].style.background = previews[i].style.background;
+  images[i].style.backgroundImage = ` url(imgs/Project-${i}.png)`;
   previews[i].style.backgroundSize = 'cover';
   images[i].style.backgroundSize = 'cover';
   previewHeadings[i].innerText = projects[i];

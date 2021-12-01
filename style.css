@@ -146,7 +146,9 @@ header .elipse {
   height: 50px;
   left: 255px;
   top: 76px;
-  background: #db4747;
+  background-image: url("imgs/crno-belo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   mix-blend-mode: lighten;
 }
 
@@ -235,6 +237,14 @@ header .header-text i {
   margin: 0 auto;
   position: relative;
   height: 100%;
+  border: 2px solid #1b1b1e;
+}
+
+.portfolio .project .project-preview h4,
+.portfolio .project .project-preview ul,
+.portfolio .project .project-preview li,
+.portfolio .project .project-preview .button {
+  display: none !important;
 }
 
 .portfolio .project .project-preview .button {
@@ -257,6 +267,13 @@ header .header-text i {
 
 .portfolio .project .project-preview .button:hover {
   box-shadow: 0 2px 15px 0 rgba(219, 71, 71, 0.6);
+}
+
+.portfolio .project .project-preview:hover h4,
+.portfolio .project .project-preview:hover ul,
+.portfolio .project .project-preview:hover li,
+.portfolio .project .project-preview:hover .button {
+  display: flex !important;
 }
 
 .get-wrapper {
