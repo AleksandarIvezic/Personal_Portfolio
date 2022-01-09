@@ -4,7 +4,7 @@
 # Personal portfolio
 
 
-> One paragraph statement about the project.
+> Portfolio web page
 
 ![screenshot](/imgs/Screenshot.png)
 
